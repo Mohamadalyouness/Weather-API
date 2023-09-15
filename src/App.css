@@ -1,25 +1,51 @@
-.app {
-  height: 100vh;
-  width: 100vw;
-  transition: background-color 1s ease-in;
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #9ccef4;
+  font-family: 'Raleway';
 }
 
-.app__header,
-.app__main {
-  width: 100%;
+main {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+h2 {
+  color: white;
+}
+
+.temp-body {
+  color: #030348;
+}
+
+.humidity-pressure {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  font-family: "Raleway", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
 }
 
-/*  Search bar */
+.humidity-pressure p {
+  padding: 0 20px;
+}
 
-/* Current weather */
+.footer-wrapper {
+  display: flex;
+  justify-content: ;
+  width: 70%;
+  margin: auto;
+}
 
-div {
-  border: 5px solid red;
+.img-body {
+  height: 250px;
+  width: 100%;
+  display: block;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrapper p {
+  color: #030348;
 }

@@ -1,3 +1,30 @@
-div {
-    border: 25px solid black;
+.header {
+    background-color: #759eda;
+    padding: 30px;
+}
+
+.button {
+    border: none;
+    padding: 25px 35px;
+    background-color: #5879c7;
+    color: #030348;
+    font-size: x-large;
+}
+
+.input {
+    border: none;
+    padding: 30px 35px;
+    margin-right: 100px;
+    background-color: #759eda;
+    font-size: large;
+    font-family: 'Raleway';
+}
+
+.input::placeholder {
+    color: #FFFFFF;
+}
+
+.input:focus {
+    outline: none;
+    border-bottom: 1px solid #5879c7;
 }
