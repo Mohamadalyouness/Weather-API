@@ -1,8 +1,6 @@
-import React, { Component } from "react";
 import Search from "./components/Search";
 import Body from "./components/Body"
 import Footer from "./components/Footer"
-import fakeWeatherData from "./fakeWeatherData.json"
 import "./App.css";
 import { useState } from "react";
 

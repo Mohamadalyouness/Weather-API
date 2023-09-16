@@ -1,4 +1,3 @@
-import Mostlycloudly from "../img/weather-icons/mostlycloudy.svg"
 import Clear from "../img/weather-icons/clear.svg";
 // import Cloudy from "../img/weather-icons/cloudy.svg";
 import Drizzle from "../img/weather-icons/drizzle.svg";
@@ -13,6 +12,8 @@ import Snow from "../img/weather-icons/snow.svg";
 
 function Body(props) {
 
+    const myColor = "";
+
     const getImage = (id) => {
        
         if (id < 300) {
@@ -20,12 +21,15 @@ function Body(props) {
           } else if (id >= 300 && id <= 499) {
             return Drizzle;
           } else if (id >= 500 && id <= 599) {
+            document.body.style = 'background: gray;' ;
             return Rain;
           } else if (id >= 600 && id <= 699) {
             return Snow;
           } else if (id >= 700 && id <= 799) {
+            document.body.style = 'background: ECE1E4;';
             return Fog;
           } else if (id === 800) {
+            document.body.style = 'background: yellow;';
             return Clear;
           } else if (id === 801) {
             return Partlycloudy;

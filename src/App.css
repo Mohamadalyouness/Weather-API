@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: #9ccef4;
   font-family: 'Raleway';
+  transition: background 1s;
 }
 
 main {
